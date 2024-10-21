@@ -32,11 +32,6 @@ namespace EmailAPI
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
@@ -78,8 +73,6 @@ namespace EmailAPI
         }
 
         private void EmailRetry(string email, string subject, string body, int countdown){
-            Console.WriteLine("RETRY HAS OCCURRED");
-            Console.WriteLine(countdown);
             if (countdown <=0){
                 return;
             }

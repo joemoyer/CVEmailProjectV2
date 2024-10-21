@@ -33,8 +33,5 @@ Specifications Addressed:
 	-The project is designed to be called from Postman as an API, but could still be called form a console application
 	-The front end was scrapped as I ran out of time.
 
-Acknowledged Issues:
-	
-	-These are issues I'm aware of and wanted to fix but they were put on lower priority. This is my mock "Sprint Backlog".
 
 	
